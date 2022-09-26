@@ -26,3 +26,4 @@ while True:
     cnt += 1
 
 print(maxstr, minstr)
+#
