@@ -5,7 +5,7 @@
       "setup": "",
       "run": "python q2.py",
       "input": "computer\r\npython\r\nc\r\nstop",
-      "output": "python c",
+      "output": "computer c",
       "comparison": "included",
       "timeout": 10,
       "points": 2
@@ -13,7 +13,7 @@
     {
       "name": "T2",
       "setup": "",
-      "run": "Python q2.py",
+      "run": "python q2.py",
       "input": "Python\r\nC++\r\nSTOP",
       "output": "Python C++",
       "comparison": "included",
