@@ -5,8 +5,8 @@
       "setup": "",
       "run": "python q2.py",
       "input": "computer\r\npython\r\nc\r\nstop",
-      "output": "computer c",
-      "comparison": "included",
+      "output": "[computer, c]",
+      "comparison": "regex",
       "timeout": 10,
       "points": 2
     },
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python q2.py",
       "input": "Python\r\nC++\r\nSTOP",
-      "output": "Python C++",
+      "output": "[Python, C++]",
       "comparison": "included",
       "timeout": 10,
       "points": 2
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "python q2.py",
       "input": "aaa\r\nbbb\r\nccc\r\na\r\nzzzz\r\nSTOP",
-      "output": "zzzz a",
+      "output": "[zzzz, a]",
       "comparison": "included",
       "timeout": 10,
       "points": 2
